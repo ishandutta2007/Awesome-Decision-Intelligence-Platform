@@ -64,7 +64,7 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 The open-source decision intelligence landscape focuses on decision execution, typed primitives, rule orchestration, and smart LLM routing.
 
-### 🌟 Featured Open-Source Repositories (Sorted by GitHub Stars)
+### 🌟 Featured Open-Source Repositories (Sorted by GitHub_Stars)
 
 - **[apache/incubator-kie-drools](https://github.com/apache/incubator-kie-drools)** <a href="https://github.com/apache/incubator-kie-drools/stargazers"><img src="https://img.shields.io/github/stars/apache/incubator-kie-drools?style=social&color=white" alt="Drools Stars"/></a> 🛠️  
   **The enterprise business rules engine (BRE) & DMN decision execution engine.**  
