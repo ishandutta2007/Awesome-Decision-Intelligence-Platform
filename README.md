@@ -1,181 +1,133 @@
-# Awesome-Decision-Intelligence-Platform
+# 💡 Awesome Decision Intelligence Platform
 
-## Top Decision Intelligence Platforms Ecosystem
+<p center>
+  <img src="./assets/banner.svg" alt="Awesome Decision Intelligence Platform Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Decision-Intelligence-Platform?style=flat-square" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Decision-Intelligence-Platform?style=flat-square" alt="License"/>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 📌 Top Decision Intelligence Platforms Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 
-*Focused on Automated Insight Discovery, Decision Automation & Contextual Analytics*
+*Focused on Automated Insight Discovery, Decision Automation, Contextual Analytics, and Intelligent Routing Frameworks.*
 
 **Last updated: October 2026**
 
+---
 
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Decision Intelligence**. These tools help organizations move beyond static dashboards to automatically discover why metrics change, generate actionable recommendations, and automate decision workflows.
-
-
-
-**Examples** include Tellius, Pyramid Analytics, DataRobot AI Cloud, C3 AI, Peak AI, Quantexa, Sisu Data, BeyondCore, Aible, and Sapiens Decision (the category leaders).
-
-
-
-**Open-source emphasis**: Decision Intelligence is a **deeply commercialized category**—Tellius, Pyramid, and DataRobot lead the market. The open-source ecosystem is **nascent and primarily focused on the decision execution layer** rather than automated insight discovery. **Kev** (Apache-2.0) provides an open-source decision engine for typed choice/score/noul primitives with self-hosting support . **OpenSmartRoute** delivers intelligent routing and decision orchestration with multi-armed bandit strategies and MCP integration . This section documents these emerging solutions honestly.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Tellius](https://www.tellius.com/)**
-
-  **Decision intelligence platform with conversational AI (Kaiya) and automated insight discovery.** **Tellius 5.4** introduces **dynamic parameters** for calculated columns in live Business Views, enabling on-the-fly scenario analysis (e.g., adjusting tax rate to see real-time revenue impact) . **Kaiya** now supports **multi-model LLM backends** (Gemini alongside OpenAI) with secure, role-based administration . **Smart deduplication** for insights automatically detects and manages data duplication from complex joins, ensuring accurate metrics (e.g., focusing TRx analysis on relevant dimensions like Payment Type, Brand, Channel) . **Embeddable Kaiya** allows conversational analytics to be integrated directly into customer applications . Insight results now distinguish **direct contributors (What)** from **influencing factors (Why)**, with sorting by absolute or percentage change and direct Vizpad integration for deeper analysis .
-
-
-
-- **[Pyramid Analytics](https://www.pyramidanalytics.com/)**
-
-  **All-in-one decision intelligence platform unifying data prep, business analytics, and data science.** Includes **hundreds of built-in data connectors** and a **super-fast direct query engine (PYRANA)** ensuring flexibility without data extraction . **Virtual semantic models** hide database complexity while enabling sophisticated business logic and dynamic calculations . **Governance features** include granular role-based access, centralized business logic library (Tabulate, Master Flow), version control, and standardized metrics with built-in auditing . **Recognized as a Visionary in 2026 Gartner Magic Quadrant for ABI** and **Ranked #1 in Gartner Critical Capabilities 2026** .
-
-
-
-- **[DataRobot AI Cloud](https://www.datarobot.com/)**
-
-  **Unified AI platform for decision intelligence and automated machine learning.** Provides **end-to-end automation** from data to value, with continuous automation maintaining model accuracy as conditions change . **Decision Intelligence Flows** enable automation and scaling of decisions beyond predictions . **Deployment flexibility** across public cloud, data center, and edge environments . **Trusted AI capabilities** include transparency, explainability, and guardrails to prevent bias . **MLOps** provides centralized deployment, monitoring, and governance of all production models . **Application Builder** enables no-code creation and sharing of AI applications for field decision-makers .
-
-
-
-- **[C3 AI](https://c3.ai/)**
-
-  **Enterprise AI platform with decision intelligence applications.** **C3 Code** uses **application packages** encoding real enterprise operations (assets, processes, events, metrics) so AI starts from operational context rather than blank schema . **US Marine Corps case study**: Manpower optimization that previously took **a month** of piecemeal processing (Databricks → Excel → Jupyter → Qlik) now completes in **a few hours** using C3 AI's integrated workflow . **Modular architecture** integrates with existing technology stacks (Delta Lake, Databricks) without data replication . **Industry-specific ontologies** for process optimization, financial services (AML, smart lending), defense/intelligence (readiness optimization), and more .
-
-
-
-- **[Peak AI](https://peak.ai/)**
-
-  **Decision intelligence platform focused on commercial operations (retail, CPG, manufacturing).** **Joined UiPath in 2025**, combining Peak's Agentic Intelligence with UiPath's automation platform to create agentic solutions that predict, decide, and act autonomously . **Agentic solutions** include **Agentic Commercial Pricing**, **Agentic Inventory Management**, and **Agentic Merchandising**—going beyond insights to execute decisions automatically . **Predict, Decide, Act framework** adapts to real-time conditions across pricing, supply chain, and merchandising .
-
-
-
-- **[Quantexa](https://www.quantexa.com/)**
-
-  **Decision Intelligence Platform purpose-built for complex, high-stakes environments where trust, transparency, and explainability are non-negotiable.** **Context is foundational**: unifies data from anywhere, then uses **market-leading entity resolution** and **graph analytics** to reveal relationships, behaviors, networks, and risks . **Quantexa Knowledge Graph (QKG)** was officially patented . **Quantexa AI** includes **Agent Gateway** for secure multi-agent orchestration with governance, lineage, and compliance, supporting open standards (MCP, A2A) . **Q Assist Workspace** enables contextual understanding across data, applications, and industry use cases with grounded, explainable outputs . **Quantexa Cloud AML** is the first SaaS offering for US mid-size banks .
-
-
-
-- **[Sisu Data](https://sisu.ai/)**
-
-  **Decision intelligence engine for automated diagnostic analytics.** **Created from Stanford University research**, Sisu automatically explores every possible combination of dimensions to find what's driving changes in key metrics . **Retail use case**: Diagnoses Average Order Value (AOV) and Units Per Transaction (UPT) fluctuations across product, price, discounting, day part, and customer segment . **Scale**: **5M facts found for customers in the past year**, **4M+ rows analyzed per second**, **47B factor combinations tested** . Customers include Microsoft, Samsung, and Upwork .
-
-
-
-- **[BeyondCore](https://www.beyondcore.com/)**
-
-  **Smart Data Discovery platform for zero-click business insights.** **Automatically analyzes millions of data combinations in minutes** to deliver unbiased answers, explanations, and recommendations . **Zero-click analytics**: Truly dynamic dashboards present the most important graphs in order of impact, distinguishing trends from blips without manual effort . **BeyondCore Story** provides narrative explanations behind analysis . **Outputs to PowerPoint and Word** for easy consumption . Backed by **20+ patents** and 10 years of R&D . Selected as a **Visionary in Gartner Magic Quadrant for BI and Analytics Platforms (2016)** .
-
-
-
-- **[Aible](https://www.aible.com/)**
-
-  **ROI-optimized AutoML platform delivering real business impact through seamless collaboration.** **Aible Business** empowers business people and managers to create AI that delivers sustained business impact by capturing enterprise cost-benefit tradeoffs and operational constraints . **Aible Advanced** enables data scientists to create **Blueprints** encoding best practices while retaining complete visibility . **Aible for One** builds predictive models within Salesforce or Tableau in minutes . **Monitors and quantifies AI value**, alerting CDOs when outcomes don't match predictions and recommending specific remediations .
-
-
-
-- **[Sapiens Decision](https://www.sapiens.com/)**
-
-  **Decision intelligence platform turning business logic into a true enterprise asset.** Gartner Peer Insights rating: **4.4 stars with 30 reviews** . Users praise its **ability to handle both simple and complex business rules** and the ease of making decision changes, providing a structured way to manage logic and ensure consistent application of business rules .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Decision Engines & Routing
-
-
-
-- **[Kev](https://github.com/arjun988/Kev)**
-
-  **Open-source decision engine for typed choice/score/noul primitives with calibrated probabilities.** **Apache-2.0 licensed**, self-hostable with Ollama or any OpenAI-compatible model . **Core innovation**: "Kev is the open control plane. The intelligence is whatever model you point it at." **BYO model support**: Ollama, vLLM, OpenAI, Gemini-compat . **Wire format**: Same shape as System One (`choice` / `score` / `noul`) . **Offline mode**: Mock backend for CI and demos . **Developer experience**: Playground, SDK, CLI, MCP, LangChain/LlamaIndex integrations . **Benchmarks** (qwen3.5:9b via Ollama, 100% GPU): **Banking77 83%** (choice, n=600), **CLINC OOS 86%** (choice, n=600), **AG News 86.5%** (choice, n=600), **SST-5 89.5%** within-1 (score, n=600), **Civil Comments 81%** (noul, n=600) . **Ops metrics**: p50/p95 504/803ms (2 questions), **0% parse-fail**, **0% rerun agreement flip** .
-
-
-
-- **[OpenSmartRoute](https://pypi.org/project/opensmartroute/)**
-
-  **Open-source intelligent routing and decision orchestration framework.** **Core capability**: Routes decisions across LLM targets, tools, and agents with **sub-millisecond signal processing** (task type, domains, complexity, reasoning need, PII, language, modality, history) . **Decision strategies**: Rules, capability fit, example similarity, task table, Thompson and LinUCB bandits, IRT, Bradley-Terry, Markov lookahead, multi-turn history embeddings, learning-to-defer, edge/cloud tiers, token budgets, auctions, user adaptation, and LLM judge (consulted only below confidence threshold) . **Production features**: Circuit breakers, learner state persistence (Redis/SQL), audit logging, tenant middleware, guard middleware for PII redaction . **Hosted platform** available for enterprise deployment .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Decision Engines**: **Kev** (Apache-2.0, typed primitives, self-hostable) .
-
-- **Decision Routing**: **OpenSmartRoute** (multi-armed bandit strategies, MCP integration) .
-
-- **Contextual Analytics**: The open-source ecosystem for automated insight discovery (Tellius, Sisu, BeyondCore equivalents) is **essentially non-existent**—this remains a commercial-only capability.
-
-
-
-**Frameworks for building custom systems**: Combine **Kev** for typed decision execution with calibrated probabilities, **OpenSmartRoute** for intelligent routing and decision orchestration across models and tools, and **Apache KIE/Drools** (see Decision Automation ecosystem) for rule-based decision logic. Add **PostgreSQL** for persistence and **Docker** for deployment. **Note**: Automated insight discovery and contextual analytics—the core value of Tellius, Sisu, and Quantexa—have **no open-source equivalents** and require commercial platforms.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Decision Intelligence platforms handle sensitive business logic and decision data; ensure proper access controls and compliance with governance policies.
-
-- **Open-source reality**: Decision Intelligence is **one of the least developed open-source categories** in the data and analytics stack. The open-source ecosystem is limited to **decision execution engines** (**Kev**) and **routing frameworks** (**OpenSmartRoute**) . The core capabilities of commercial platforms—**automated insight discovery** (Tellius, Sisu, BeyondCore), **contextual entity resolution and graph analytics** (Quantexa), **ROI-optimized AutoML** (Aible, DataRobot), and **agentic decision automation** (Peak, C3 AI)—have **no production-ready open-source equivalents**. Organizations seeking these capabilities must adopt commercial platforms or invest in significant custom development.
-
-
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Decision Intelligence (DI)**. These tools help organizations move beyond static dashboards and business intelligence (BI) to automatically discover why metrics change, generate actionable recommendations, orchestrate model routing, and automate complex enterprise decision workflows.
 
 ---
 
+## 📑 Table of Contents
 
+- [📊 Market Overview & Size](#-market-overview--size)
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
 
-**Made for data leaders, analytics engineers, decision architects, and AI/ML practitioners.**
+---
 
-Let's make decision intelligence more open, transparent, and actionable.
+## 📊 Market Overview & Size
+
+> 💡 **Market Size & Structure**: The global Decision Intelligence market is estimated at **$13.4 Billion in 2026** and is projected to grow at a **CAGR of ~18.5%** over the next decade. The sector is **moderately fragmented**, undergoing rapid consolidation as enterprise automation giants acquire niche DI platforms (e.g., *UiPath acquiring Peak AI*, *ServiceNow acquiring Pyramid Analytics*, *Snowflake acquiring Sisu Data*). Commercial vendors dominate automated diagnostic analytics and entity resolution, while open-source options focus primarily on rule execution engines, typed decision primitives, and smart LLM routers.
+
+---
+
+## 🏢 SaaS/Hosted Platforms
+
+| Platform | Company Size / Valuation / Revenue | Starting Price | Free Tier / Trial Limit | Key Capabilities & Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[DataRobot AI Cloud](https://www.datarobot.com/)** 🤖 | **$1.1B+ Valuation** (~$300M ARR) | ~$2,500 / month (annual contract) | 30-day free trial (Full platform access for Generative AI & AutoML) | Unified AI platform providing end-to-end Decision Intelligence Flows, AutoML, continuous model monitoring, and MLOps to automate decisions beyond raw predictions. |
+| **[Quantexa](https://www.quantexa.com/)** 🕸️ | **$2.6B Valuation** ($100M+ ARR) | ~$5,000 / month (Enterprise Quote) | No free trial available (Request-based enterprise pilot programs) | Purpose-built DI platform featuring the patented Quantexa Knowledge Graph (QKG), entity resolution, agentic AI gateways (MCP/A2A), and enterprise risk analytics. |
+| **[C3 AI](https://c3.ai/)** 🏭 | **~$2.5B Market Cap** ($232M TTM Revenue) | $0.55 / vCPU-hour ($250k / 3-mo pilot) | 14-day free trial (C3 Generative AI Standard Edition via AWS Marketplace) | Enterprise AI platform offering modular operational ontologies, C3 Code application packages, and turnkey decision apps across defense, finance, and manufacturing. |
+| **[Sapiens Decision](https://www.sapiens.com/)** 📜 | **$2.5B Acquisition** ($500M+ Revenue) | ~$3,000 / month (Enterprise Quote) | No free trial available (Custom enterprise demo upon request) | Enterprise decision management platform turning complex business logic and business rules into reusable corporate assets with full auditing and versioning. |
+| **[Pyramid Analytics](https://www.pyramidanalytics.com/)** 📐 | **~$1B Valuation** (Acquired by ServiceNow, ~$50M Revenue) | ~$1,000 / month (User/Server base) | 30-day free trial (Complete platform access with virtual semantic models) | All-in-one DI platform unifying data prep, business analytics, and data science. Features the PYRANA direct query engine and centralized business logic governing. |
+| **[Tellius](https://www.tellius.com/)** 🔍 | **~$300M Valuation** (~$20M Revenue) | $495 / month (Tellius On-Demand / Credits) | 30-day free trial (Full NLQ conversational search & automated insight discovery) | Conversational AI (Kaiya) and automated diagnostic analytics. Distinguishes direct contributors ("What") from influencing factors ("Why") with live dynamic parameters. |
+| **[Peak AI](https://peak.ai/)** 📦 | **~$300M Valuation** (Acquired by UiPath, ~$25M Revenue) | ~$2,000 / month (Integrated with UiPath) | 14-day free trial (Enterprise demo via UiPath Agentic Platform) | Decision intelligence platform focused on commercial operations (retail, CPG, supply chain). Combines agentic inventory management and commercial pricing optimization. |
+| **[Sisu Data](https://sisu.ai/)** ⚡ | **~$250M Valuation** (Acquired by Snowflake, ~$15M Revenue) | ~$1,500 / month (Snowflake Credit Usage) | 14-day free trial (Available via Snowflake Native App evaluation) | Automated diagnostic analytics engine born out of Stanford research. Runs fast combinatorial analysis testing billions of factor combinations to explain metric changes. |
+| **[Aible](https://www.aible.com/)** 🎯 | **~$100M Valuation** (~$30M Revenue) | $1,000 / month (Aible for Teams) | 30-day free trial (No-code ROI-optimized AutoML models in Salesforce/Tableau) | ROI-optimized AutoML platform empowering business leaders to model enterprise cost-benefit tradeoffs and monitor live business outcomes against predictions. |
+| **[BeyondCore](https://www.beyondcore.com/)** 📖 | **$110M Acquisition** (Acquired by Salesforce) | ~$500 / month (Salesforce Einstein Analytics) | 30-day free trial (Integrated with Salesforce Analytics Cloud) | Pioneer of zero-click smart data discovery and automated narrative analytics. Automatically analyzes millions of data combinations to generate narrative presentations. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+The open-source decision intelligence landscape focuses on decision execution, typed primitives, rule orchestration, and smart LLM routing.
+
+### 🌟 Featured Open-Source Repositories (Sorted by GitHub Stars)
+
+- **[apache/incubator-kie-drools](https://github.com/apache/incubator-kie-drools)** <a href="https://github.com/apache/incubator-kie-drools/stargazers"><img src="https://img.shields.io/github/stars/apache/incubator-kie-drools?style=social&color=white" alt="Drools Stars"/></a> 🛠️  
+  **The enterprise business rules engine (BRE) & DMN decision execution engine.**  
+  *Apache-2.0* • Java-based rule engine with forward/backward chaining inference algorithms, DMN 1.5 compliance, and business logic execution.
+
+- **[opendilab/DI-engine](https://github.com/opendilab/DI-engine)** <a href="https://github.com/opendilab/DI-engine/stargazers"><img src="https://img.shields.io/github/stars/opendilab/DI-engine?style=social&color=white" alt="DI-engine Stars"/></a> 🧠  
+  **Decision intelligence engine for Deep Reinforcement Learning.**  
+  *Apache-2.0* • PyTorch/JAX framework providing unified reinforcement learning algorithms for complex sequential decision-making tasks and real-time control.
+
+- **[gorules/zen](https://github.com/gorules/zen)** <a href="https://github.com/gorules/zen/stargazers"><img src="https://img.shields.io/github/stars/gorules/zen?style=social&color=white" alt="Zen Engine Stars"/></a> ⚡  
+  **Cross-platform, high-performance Business Rules Engine written in Rust.**  
+  *MIT* • Evaluates JSON Decision Models (JDM) with decision tables and expression evaluation. Supports Rust, Node.js, Python, Go, Java, C#, and C.
+
+- **[decisionintelligence/TFB](https://github.com/decisionintelligence/TFB)** <a href="https://github.com/decisionintelligence/TFB/stargazers"><img src="https://img.shields.io/github/stars/decisionintelligence/TFB?style=social&color=white" alt="TFB Stars"/></a> 📈  
+  **Time Series Benchmark Suite for Decision Intelligence.**  
+  *MIT* • Automated benchmarking framework evaluating time-series forecasting algorithms for operational decision systems.
+
+- **[arjun988/Kev](https://github.com/arjun988/Kev)** <a href="https://github.com/arjun988/Kev/stargazers"><img src="https://img.shields.io/github/stars/arjun988/Kev?style=social&color=white" alt="Kev Stars"/></a> 🎯  
+  **System One decision engine for typed choice, score, and noul primitives with calibrated probabilities.**  
+  *Apache-2.0* • Open control plane for local/OpenAI models. Provides structured choice/score primitives, offline CI mocks, and sub-second execution.
+
+- **[OpenSmartRoute](https://pypi.org/project/opensmartroute/)** 🔀  
+  **Intelligent routing & decision orchestration framework with multi-armed bandits.**  
+  *Apache-2.0* • Sub-millisecond signal routing across LLM targets, tool selection, Thompson/LinUCB bandits, IRT, and MCP integration.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple steps:
+
+1. 🍴 **Fork** the repository.
+2. 📝 **Add/edit** entries in `README.md` (keep descriptions objective and concise).
+3. 🔗 Include project name, website/repo link, key capabilities, and pricing details.
+4. 📬 Submit a **Pull Request (PR)** with a summary of changes.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this Decision Intelligence platform resource helpful:
+- ⭐ **Star** this repository to show support!
+- 🍴 **Fork** it to keep a personal copy.
+- 📢 **Share** it with fellow data leaders, analytics engineers, and AI architects!
+- ☕ **Buy me a coffee**: Support ongoing updates on GitHub Sponsors:  
+  👉 **[Sponsor on GitHub](https://github.com/sponsors/ishandutta2007)** ❤️
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** repository intended for informational and research purposes only.
+- Decision Intelligence platforms process sensitive business logic and data; always evaluate governance, compliance, and security standards before deployment.
+- **Open-source ecosystem status**: Commercial platforms lead in automated insight discovery and knowledge graph entity resolution, while open-source projects primarily address decision engines and routing primitives.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Decision-Intelligence-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Decision-Intelligence-Platform&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  Made with ❤️ for data leaders, analytics engineers, decision architects, and AI practitioners.
+</p>
